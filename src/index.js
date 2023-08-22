@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './containers/App';
-import registerServiceWorker from './registerServiceWorker';
+
 import 'tachyons';
  /* this syntax used destructuring because robots was not export defaulted */
 
@@ -17,7 +17,7 @@ import 'tachyons';
                   <Card id={robots[2].id} name={robots[2].name} email={robots[2].email}/>
                 </div>
   , document.getElementById('root')); */
-registerServiceWorker();
+
 
 
 
